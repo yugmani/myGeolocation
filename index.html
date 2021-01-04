@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Geolocation Demo</title>
+    <style>
+      .container {
+        margin: 0 auto;
+        background-color: gray;
+        width: 80%;
+        padding: 20px;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #message {
+        margin: 0 auto;
+        background-color: whitesmoke;
+        width: 60%;
+        height: 100px;
+        text-align: center;
+        margin: 15px;
+      }
+
+      .btn {
+        background-color: white;
+        padding: 5px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .success {
+        margin-top: 30px;
+        padding: 15px;
+
+        font-size: 25px;
+        color: blue;
+      }
+
+      .error {
+        margin-top: 30px;
+        padding: 15px;
+
+        font-size: 25px;
+        color: red;
+      }
+
+      .latlang {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="show" class="btn">Show my location</button>
+      <div id="message"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
